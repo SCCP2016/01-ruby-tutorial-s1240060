@@ -1,6 +1,6 @@
 loop{
     a, op, b= gets.split
-    case op
+case op
     when "+"
         puts a.to_i+b.to_i
     when "-"
