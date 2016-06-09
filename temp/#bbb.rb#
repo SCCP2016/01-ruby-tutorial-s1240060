@@ -1,0 +1,7 @@
+#!/usr/local/bin/ruby
+
+r = STDIN.gets
+nr= r.to_i
+pi= 3.14159265
+puts (nr*nr*pi).to_s+ " " + ((nr+nr)*pi).to_s
+# puts nr.class

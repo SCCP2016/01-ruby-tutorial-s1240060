@@ -1,0 +1,8 @@
+#!/usr/local/bin/ruby
+
+r = STDIN.gets
+nr= r.to_i
+pi= 3.14159265
+# puts (nr*nr*pi).to_s+ " " + ((nr+nr)*pi).to_s
+puts sprintf("%.6f %.6f",(nr*nr*pi),(nr+nr)*pi)
+# puts nr.class
