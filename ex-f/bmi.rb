@@ -12,3 +12,4 @@ end
 
 puts cal_bmi(t,w)
 puts cal_weight(t)
+
